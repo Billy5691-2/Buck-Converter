@@ -11,6 +11,8 @@ The large amount of unused board is to allow for a greater ground plane to impro
 
 As of 03/02/2025 this design is untested, I will update this repository when I have had the PCB produced and tested the design. 
 
+I will be ordering this PCB from JLCPCBs and the components from Digikey. 
+
 # Development Images:
 
 ![PCB Top Layer](https://github.com/Billy5691-2/Buck-Converter/blob/main/PCB_Top.jpg?raw=true)
@@ -73,5 +75,8 @@ https://www.ti.com/lit/ds/symlink/lmr36520.pdf
 
 LMR36520EVM:
 https://www.ti.com/lit/ug/snvu677/snvu677.pdf
+
+Inspiration:
+https://www.instructables.com/DIY-High-Efficiency-5V-Output-Buck-Converter/
 
 
