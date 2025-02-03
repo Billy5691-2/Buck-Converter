@@ -1,12 +1,18 @@
 # 12V to 5V 2A Flybuck-Converter
-. The PCB is based on the recommended layout from the LMR36520 documentation, with components from the associated evaluation board. 
+This PCB is based on the recommended layout from the LMR36520 documentation, with components from the associated evaluation board. 
 
 The LMR36520 is an adjustable buck regulator with an input range between 12V and 24V for normal usage, but supporting 6V-60V transients, at an output of up to 2A. In the configuration laid out in this repository, the board will output at 5V up to 2A. However, the output voltage can be easily adjusted by changing the RFBT resistor based on the documentation of the LMR36520, which will be linked below. 
 
 RFBT1 & RFBT2 are wired in series, parallel to RFBT, to allow an alternative way to set the desired output voltage by varying resistances. 
 
-#Components:
-U3: 
+Due to the high heat output of converting to 5V 2A, I will use 2oz of copper weight on the outer layers to allow for greater heat dissipation. I will also be adding external heatsinks attached via thermal pads to the front and back to further improve heat dissipation. 
+
+The large amount of unused board is to allow for a greater ground plane to improve head dissipation, and also to spread out components so hand soldering is easier. 
+
+As of 03/02/2025 this design is untested, I will update this repository when I have had the PCB produced and tested the design. 
+
+# Components:
+Buck: 
 Texas Indstruments - LMR36520ADDAR
 
 Inductor:
