@@ -7,9 +7,16 @@ RFBT1 & RFBT2 are wired in series, parallel to RFBT, to allow an alternative way
 
 Due to the high heat output of converting to 5V 2A, I will use 2oz of copper weight on the outer layers to allow for greater heat dissipation. I will also be adding external heatsinks attached via thermal pads to the front and back to further improve heat dissipation. 
 
-The large amount of unused board is to allow for a greater ground plane to improve head dissipation, and also to spread out components so hand soldering is easier. 
+The large amount of unused board is to allow for a greater ground plane to improve head dissipation, and also to spread out components so hand soldering is easier. While this design is only 2 layers, it may worth it to increase it to 4 layers for more heat dissipation, with both center layers used as extended ground planes. However, I chose against this due to the increased cost.
 
 As of 03/02/2025 this design is untested, I will update this repository when I have had the PCB produced and tested the design. 
+
+# Development Images:
+
+![PCB Top Layer](https://github.com/Billy5691-2/Buck-Converter/blob/main/PCB_Top.jpg?raw=true)
+
+![PCB Bottom Layer](https://github.com/Billy5691-2/Buck-Converter/blob/main/PCB_Bottom.jpg?raw=true)
+
 
 # Components:
 Buck: 
