@@ -69,7 +69,7 @@ Barrel Jack:
 Kycon - KLDX-0202-BC
 2.5mm-5.5mm, Positive Center
 
-#References:
+# References:
 LMR36520:
 https://www.ti.com/lit/ds/symlink/lmr36520.pdf
 
